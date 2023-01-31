@@ -7,8 +7,9 @@
 @import "../node_modules/bootstrap/scss/grid";
 
 @import "colors";
+@import "utilities";
+@import "mixins";
 
 body {
-  background-color: $yellow;
+  background-color: hslac($primary, 1);
 }
-
